@@ -59,3 +59,8 @@ let lastName = "Doe";
 
 let fullName = firstName + " " + lastName;
 console.log(fullName); // "John Doe"
+
+// Conditional(Ternary) Operator
+let age = 20;
+let canVote = age >= 18 ? "Yes" : "No";
+console.log(canVote); // "Yes"
